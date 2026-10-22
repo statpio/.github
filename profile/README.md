@@ -1,74 +1,100 @@
-# 🚀 Statpio — The All-In-One Static Hosting & Client Management Platform for Agencies
+<p align="center">
+  <a href="https://statpio.com"><img src="https://statpio.com/opengraph-image.png" alt="Statpio: white-label hosting for agencies" width="100%"></a>
+</p>
 
-> **Manage, deploy, and host dozens of client websites from a single unified agency dashboard. Zero server maintenance, built-in lead capture, real-time analytics, and instant custom domain provisioning.**
+<h1 align="center">Statpio</h1>
 
-[![Website](https://img.shields.io/badge/Website-statpio.com-orange?style=for-the-badge&logo=rocket)](https://statpio.com)
-[![X Twitter](https://img.shields.io/badge/X-@statpio-black?style=for-the-badge&logo=x)](https://x.com/statpio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Statpio-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/company/statpio)
-[![Showcase](https://img.shields.io/badge/Showcase-Live_Sites-green?style=for-the-badge&logo=github)](https://github.com/statpio/showcase)
+<p align="center">
+  <strong>White-label hosting for agencies and freelancers.</strong><br>
+  Static and AI-built client websites, with forms, cookieless analytics, a blog and a branded client portal built in. One flat fee, no servers.
+</p>
 
----
-
-## ⚡ What is Statpio?
-
-**Statpio** is a next-generation static hosting and multi-tenant management platform built specifically for **digital agencies, freelance web developers, and growth teams**.
-
-Instead of juggling multiple hosting accounts, managing breakable WordPress servers, or paying for 5 separate third-party services (hosting, form backends, SSL, and analytics) for every single client, **Statpio consolidates your entire client portfolio under one roof**:
-
-- 🏢 **One Master Dashboard**: Control 5, 20, or 100+ separate client websites without switching accounts.
-- 📬 **Per-Client Form Routing**: Route leads and contact inquiries directly to each client's inbox while tracking submissions centrally.
-- 🔒 **Zero Server Headaches**: 100% static delivery means no database crashes, zero WordPress plugin vulnerabilities, and blazing-fast sub-second loading worldwide.
-- 🌐 **Instant Staging & White-Label Domains**: Share instant staging URLs (`client.onstatpio.com`) for sign-off, then connect custom domains (`client.com`) with automated SSL in one click.
+<p align="center">
+  <a href="https://statpio.com"><img src="https://img.shields.io/badge/statpio.com-start_free-e8920e?style=for-the-badge" alt="Start free at statpio.com"></a>
+  <a href="https://statpio.com/pricing"><img src="https://img.shields.io/badge/pricing-from_%240-1f1b3a?style=for-the-badge" alt="Pricing"></a>
+  <a href="https://statpio.com/help"><img src="https://img.shields.io/badge/help_center-12_guides-1f1b3a?style=for-the-badge" alt="Help center"></a>
+  <a href="https://claude.ai/directory/statpio"><img src="https://img.shields.io/badge/Claude-connector-1f1b3a?style=for-the-badge" alt="Statpio in the Claude connectors directory"></a>
+</p>
 
 ---
 
-## 🏢 Why Agencies & Freelancers Choose Statpio
+## What you get
 
-| Problem with Traditional Hosting (Vercel, WordPress, Netlify) | How Statpio Solves It for Agencies |
-| :--- | :--- |
-| **Account Juggling**: Managing dozens of separate logins or complex team permissions. | **Central Client Control**: Manage all client sites, domains, forms, and traffic from one master workspace. |
-| **Fragmented Costs**: Paying separately for hosting, Formspree ($20/mo), and analytics ($15/mo) per client. | **All-in-One Included**: Hosting, SSL, zero-backend form capture, and analytics are built-in natively. |
-| **Maintenance Burden**: WordPress updates, crashed PHP databases, and hacked plugins. | **Zero-Maintenance Static**: Rock-solid edge uptime with zero server maintenance and no databases to patch. |
-| **Client Review Friction**: Complex deployment pipelines just to show a mock-up or demo. | **Instant Staging**: One-click preview subdomains (`client.onstatpio.com`) ready in 10 seconds for client approval. |
+| | Every website on Statpio has |
+|:--|:--|
+| 🌐 **Hosting** | Served from Cloudflare's global network with automatic SSL, a free `*.onstatpio.com` address, custom domains on paid plans, password protection and instant rollbacks. Static sites only: HTML, React, Vite, Astro, Next.js (`output: 'export'`), Hugo, Eleventy. |
+| 📬 **Forms** | Any plain HTML `<form method="POST">` is captured, or build one without code: ready-made contact, quote and booking forms, conditional questions, file uploads. Cloudflare Turnstile against spam. Messages land in one inbox, with browser notifications on the devices you choose. |
+| 📈 **Analytics** | A 3 KB cookieless script, no third-party trackers: visitors, pages, sources, locations, devices, leads, and on paid plans campaigns, goals, funnels, Web Vitals and a live view. |
+| ✍️ **Blog** | A hosted blog at `/blog` on the website itself (Solo Pro and up): posts, comments, RSS, sitemap and `llms.txt`, with a Search & AI checklist on every post. |
+| 🤝 **Client portal** | On Agency Pro, each client signs in under *your* logo, colours, support email and domain, sees their messages and visitors, and sends change requests. Up to 50 people per website with scoped roles. |
 
----
+## Ways to publish
 
-## 🔥 Key Features & Capabilities
+| How | Who it's for |
+|:--|:--|
+| **Drag and drop a ZIP** of the built site | Everyone, from the first minute |
+| **GitHub push-to-deploy** | Solo Pro and up; with a build command Statpio adds one workflow file to the branch you connect |
+| **Claude, ChatGPT or Cursor** through the Statpio connector at `https://statpio.com/api/mcp` | Build the site by chatting, publish it from the same conversation. [Listed in the Claude directory](https://claude.ai/directory/statpio) |
+| **Command line**: `npx statpio deploy ./dist --key <website API key>` | CI and scripts (Node.js 18+, [`statpio` on npm](https://www.npmjs.com/package/statpio)) |
+| **Deploy API** with a website API key | Your own tooling: JSON files, an uploaded ZIP, or a ZIP by URL |
 
-- **🗂️ Unified Multi-Client Management**: Organize websites by client, business, or brand. Filter, inspect, and update deployments effortlessly.
-- **📬 Built-In Client Lead Capture**: Capture HTML contact forms with automatic spam filtering (Cloudflare Turnstile) and forward inquiries directly to the client's business email.
-- **📈 Separate Privacy-First Analytics**: Monitor traffic, pageviews, and visitor trends per client without installing heavy tracking cookies or external scripts.
-- **⚡ Global Edge CDN**: Hosted across enterprise edge networks for guaranteed sub-second load times anywhere in the world.
-- **🔒 Instant Custom Domains & Auto-SSL**: Map client apex domains and subdomains with automated zero-touch HTTPS certificate issuance.
-- **🤖 AI & Low-Code Deployment**: Deploy client sites generated from **Claude, Cursor, Bolt.new, v0.dev, and ChatGPT** or upload direct ZIP bundles in seconds.
-- **📱 Mobile App Site Management**: Monitor deployments, inspect form leads, and make quick updates right from your phone.
+Sites from **Bolt.new**, **v0** and older **Lovable** (React + Vite) apps publish as they are. Lovable apps created since May 2026 use TanStack Start, which needs a server, so they can't be hosted as-is. [How to deploy AI-built sites →](https://statpio.com/blog/guides/how-to-deploy-ai-generated-websites-lovable-bolt-v0)
 
----
+## Plans
 
-## 💻 Supported Frameworks & Tech Stack
+Prices as of October 2026; the [pricing page](https://statpio.com/pricing) is always the source of truth.
 
-Statpio supports all modern frontend frameworks, static generators, and raw web assets:
-- **Frameworks**: React, Vite, Next.js (Static Export), Astro, Vue, Svelte, HTML5 / CSS3 / JavaScript, Tailwind CSS, Alpine.js.
-- **Deployment Channels**: Web Dashboard, GitHub CI/CD Auto-Sync, Drag & Drop ZIP Upload, Mobile App, REST API.
+| | Free Forever | Solo Pro | Agency Pro |
+|:--|:--|:--|:--|
+| Price | $0 | $9/month or $89/year | $49/month or $399/year |
+| Websites | 1 | 10 | 100 |
+| Custom domains | — | 10 | 100 |
+| Form messages | 250 per website a month | 10,000 per website a month | 100,000 per website a month |
+| Form builder | 1 form on the site at a time | up to 50 per site | up to 50 per site |
+| Analytics history | 30 days | 90 days + campaigns, goals, funnels, live view | + branded reports, alerts, share links |
+| Blog | — | up to 200 posts per site | up to 1,000 posts per site |
+| GitHub push-to-deploy | — | ✓ | ✓ |
+| White-label client portal | — | — | ✓ on your own domain |
+| Statpio badge on the site | shown | removed | removed |
 
----
+Extra websites and domains can be added to paid plans. Over the monthly form limit, messages are kept but locked until you move up a plan (on Agency Pro, we unlock them on request).
 
-## 🌟 Live Client Showcase
+## Help center
 
-See live production businesses, clinics, and tools currently hosted on the Statpio network:
-👉 **[Statpio Live Showcase Repository](https://github.com/statpio/showcase)**
+Step-by-step, with real screenshots: [statpio.com/help](https://statpio.com/help) · or take the [2-minute tour](https://statpio.com/tour).
 
----
+| Getting live | Forms and messages | Growing |
+|:--|:--|:--|
+| [Publish your website](https://statpio.com/help/publish-your-website) | [Add a contact form](https://statpio.com/help/add-a-contact-form) | [See your visitors](https://statpio.com/help/see-your-visitors) |
+| [Connect your own domain](https://statpio.com/help/connect-your-domain) | [Show a question only when it's needed](https://statpio.com/help/show-a-question-only-when) | [Add a blog to your website](https://statpio.com/help/add-a-blog) |
+| [Undo a publish](https://statpio.com/help/undo-a-publish) | [Read and answer messages](https://statpio.com/help/read-and-answer-messages) | [Build or change your website with Claude or ChatGPT](https://statpio.com/help/build-with-ai) |
+| | [Get notified on your computer or phone](https://statpio.com/help/get-notified) | [Put your agency's brand on the portal](https://statpio.com/help/brand-your-portal) · [Give your client their own portal](https://statpio.com/help/give-your-client-a-portal) |
 
-## 🎯 Built For
+## Guides and comparisons
 
-- **Digital & Web Agencies**: Scale your agency's recurring retainer revenue by hosting and managing all client landing pages in one place.
-- **Freelance Web Designers**: Hand off lightning-fast, headache-free websites that never go down or need server maintenance.
-- **Indie Hackers & Founders**: Launch SaaS MVPs, product waitlists, and portfolios in minutes.
+- [How to host client landing pages](https://statpio.com/blog/guides/how-to-host-client-landing-pages)
+- [How to deploy a static website with free forms and analytics](https://statpio.com/blog/static-website-hosting/how-to-deploy-static-website-with-free-forms-and-analytics)
+- [How to deploy AI-generated websites (Lovable, Bolt, v0)](https://statpio.com/blog/guides/how-to-deploy-ai-generated-websites-lovable-bolt-v0)
+- [Build a website with Claude, ChatGPT or Cursor](https://statpio.com/blog/guides/build-website-with-claude-chatgpt-cursor)
+- [White-label website hosting for web agencies](https://statpio.com/blog/solutions/white-label-website-hosting-for-web-agencies)
+- [Top ways to host and white-label websites for agency clients](https://statpio.com/blog/static-website-hosting/top-ways-to-host-and-white-label-websites-for-agency-clients)
+- Compared, with dated prices: [Statpio vs Netlify](https://statpio.com/compare/statpio-vs-netlify) · [Statpio vs Vercel](https://statpio.com/compare/statpio-vs-vercel) · [Statpio vs Formspree](https://statpio.com/compare/statpio-vs-formspree)
+- Alternatives, honestly ranked: [to Netlify](https://statpio.com/alternatives/netlify) · [to Vercel](https://statpio.com/alternatives/vercel) · [to Formspree](https://statpio.com/alternatives/formspree)
+- Everything, in one place: [all features](https://statpio.com/features) · [how the platform is built](https://statpio.com/platform) · [the blog](https://statpio.com/blog)
 
----
+## Statpio elsewhere
 
-## 🌐 Start Managing Your Client Sites Today
+| | |
+|:--|:--|
+| 📦 **npm** | [`statpio`](https://www.npmjs.com/package/statpio): deploy from your terminal or CI with `npx statpio deploy ./dist --key <website API key>` |
+| 🤖 **Claude connectors directory** | [Statpio for Claude](https://claude.ai/directory/statpio): connect once, then build and publish websites by chatting |
+| 🌟 **Showcase** | [statpio/showcase](https://github.com/statpio/showcase): live businesses, tools and portfolios hosted on Statpio. Open an issue there to add yours |
 
-Sign up in 60 seconds and launch your first client projects:
-👉 **[https://statpio.com](https://statpio.com)**
+## Talk to us
+
+- **Setup call**, 15 minutes, free: [cal.com/statpio/setup-call](https://cal.com/statpio/setup-call). We put your first site live with you.
+- **Support:** [support@statpio.com](mailto:support@statpio.com) · [contact page](https://statpio.com/contact)
+- **For AI assistants:** [llms.txt](https://statpio.com/llms.txt) · [llms-full.txt](https://statpio.com/llms-full.txt)
+- [X @statpio](https://x.com/statpio) · [LinkedIn](https://www.linkedin.com/company/statpio)
+
+<p align="center"><sub>Made by <a href="https://jay.onstatpio.com/">Jay Prakash</a>. Statpio hosts static websites only: no server code, databases or WordPress.</sub></p>
