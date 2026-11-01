@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>White-label hosting for agencies and freelancers.</strong><br>
-  Static and AI-built client websites, with forms, cookieless analytics, a blog and a branded client portal built in. One flat fee, no servers.
+  Static and AI-built client websites, with forms, cookieless analytics, a blog and a branded client portal built in. One price per plan, no servers.
 </p>
 
 <p align="center">
@@ -27,12 +27,14 @@
 | 📈 **Analytics** | A 3 KB cookieless script, no third-party trackers: visitors, pages, sources, locations, devices, leads, and on paid plans campaigns, goals, funnels, Web Vitals and a live view. |
 | ✍️ **Blog** | A hosted blog at `/blog` on the website itself (Solo Pro and up): posts, comments, RSS, sitemap and `llms.txt`, with a Search & AI checklist on every post. |
 | 🤝 **Client portal** | On Agency Pro, each client signs in under *your* logo, colours, support email and domain, sees their messages and visitors, and sends change requests. Up to 50 people per website with scoped roles. |
+| 🧩 **Templates** | Six free HTML templates (portfolio, restaurant, trades, personal, agency, event), each with a working form. Publish one in a click and change the texts and photos in the dashboard, or download the ZIP and host it anywhere. [statpio.com/templates](https://statpio.com/templates) |
 
 ## Ways to publish
 
 | How | Who it's for |
 |:--|:--|
 | **Drag and drop a ZIP** of the built site | Everyone, from the first minute |
+| **Start from a template** at [statpio.com/templates](https://statpio.com/templates) | A first website live in a minute, edited in the dashboard without code |
 | **GitHub push-to-deploy** | Solo Pro and up; with a build command Statpio adds one workflow file to the branch you connect |
 | **Claude, ChatGPT or Cursor** through the Statpio connector at `https://statpio.com/api/mcp` | Build the site by chatting, publish it from the same conversation. [Listed in the Claude directory](https://claude.ai/directory/statpio) |
 | **Command line**: `npx statpio deploy ./dist --key <website API key>` | CI and scripts (Node.js 18+, [`statpio` on npm](https://www.npmjs.com/package/statpio)) |
@@ -42,13 +44,13 @@ Sites from **Bolt.new**, **v0** and older **Lovable** (React + Vite) apps publis
 
 ## Plans
 
-Prices as of October 2026; the [pricing page](https://statpio.com/pricing) is always the source of truth.
+Prices as of 1 November 2026; the [pricing page](https://statpio.com/pricing) is always the source of truth.
 
 | | Free Forever | Solo Pro | Agency Pro |
 |:--|:--|:--|:--|
-| Price | $0 | $9/month or $89/year | $49/month or $399/year |
-| Websites | 1 | 10 | 100 |
-| Custom domains | — | 10 | 100 |
+| Price | $0 | $9/month or $89/year | $99/month or $990/year for 30 client sites (first 20 agencies: $49/month for life) |
+| Websites | 1 | 5 | 30 |
+| Custom domains | — | 5 | 30 |
 | Form messages | 250 per website a month | 10,000 per website a month | 100,000 per website a month |
 | Form builder | 1 form on the site at a time | up to 50 per site | up to 50 per site |
 | Analytics history | 30 days | 90 days + campaigns, goals, funnels, live view | + branded reports, alerts, share links |
@@ -68,7 +70,7 @@ Step-by-step, with real screenshots: [statpio.com/help](https://statpio.com/help
 | [Publish your website](https://statpio.com/help/publish-your-website) | [Add a contact form](https://statpio.com/help/add-a-contact-form) | [See your visitors](https://statpio.com/help/see-your-visitors) |
 | [Connect your own domain](https://statpio.com/help/connect-your-domain) | [Show a question only when it's needed](https://statpio.com/help/show-a-question-only-when) | [Add a blog to your website](https://statpio.com/help/add-a-blog) |
 | [Undo a publish](https://statpio.com/help/undo-a-publish) | [Read and answer messages](https://statpio.com/help/read-and-answer-messages) | [Build or change your website with Claude or ChatGPT](https://statpio.com/help/build-with-ai) |
-| | [Get notified on your computer or phone](https://statpio.com/help/get-notified) | [Put your agency's brand on the portal](https://statpio.com/help/brand-your-portal) · [Give your client their own portal](https://statpio.com/help/give-your-client-a-portal) |
+| [Start a website from a template](https://statpio.com/help/start-from-a-template) | [Get notified on your computer or phone](https://statpio.com/help/get-notified) | [Put your agency's brand on the portal](https://statpio.com/help/brand-your-portal) · [Give your client their own portal](https://statpio.com/help/give-your-client-a-portal) |
 
 ## Guides and comparisons
 
